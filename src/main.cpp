@@ -2,5 +2,7 @@
 
 int main()
 {
-    GetInput(">>");
+    string INPUT = GetInput(">>");
+
+    cout << INPUT << endl;
 }

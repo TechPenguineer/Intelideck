@@ -6,8 +6,7 @@ using namespace std;
 string GetInput(string INDICATOR)
 {
     string in;
-    cout << "REQ " << INDICATOR << " ";
+    cout << "REQ" << INDICATOR << " ";
     cin >> in;
-    
     return in;
 }
