@@ -1,7 +1,7 @@
-CC=gcc
-CFLAGS=NULL
+CC=g++
+CFLAGS=-c
 SOURCE=$(wildcard src/*.c)
 HEADERS=$(wildcard src/*.h)
 
 make:
-	$(CC)
+	$(CC) $(CFLAGS) $(HEADERS) $(SOURCE) -o out/$@
