@@ -3,7 +3,6 @@
 #include <string>
 #include "IDIO.h"
 
-public char p[]
 void ParseStringToCharArray(string STRING)
 {
     char p[STRING.length()];
