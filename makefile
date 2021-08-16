@@ -1,11 +1,12 @@
 CC=g++
-CFLAGS=-c
+CFLAGS=-g
 TYPE=.exe
-SOURCE=$(wildcard src/*.c)
+SOURCE=$(wildcard src/*.cpp)
 HEADERS=$(wildcard src/*.h)
+ALL=$(SOURCE) $(HEADERS)
 
 make:
-	$(CC) $(CFLAGS) $(HEADERS) $(CFLAGS) $(SOURCE) -o out/itd$(TYPE)
+	$(CC) $(CFLAGS) $(ALL) -o out/itd
 
 clean:
 	-rm out/*
