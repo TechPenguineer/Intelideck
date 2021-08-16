@@ -2,6 +2,5 @@
 
 int main()
 {
-    GetInput("AA");
-    return 0;
+    GetInput(">>");
 }

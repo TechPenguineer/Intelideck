@@ -3,9 +3,11 @@
 #include "IDIO.h"
 using namespace std;
 
-std::string GetInput(string INDICATOR)
+string GetInput(string INDICATOR)
 {
-
-    cout << "REQ " << INDICATOR << endl;
-
+    string in;
+    cout << "REQ " << INDICATOR << " ";
+    cin >> in;
+    
+    return in;
 }
