@@ -3,6 +3,7 @@
 int main()
 {
     string INPUT = GetInput(">>");
+    CheckIfIsQuestion(INPUT);
+    //cout << INPUT << endl;
 
-    cout << INPUT << endl;
 }
