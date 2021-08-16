@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include "IDIO.h"
+#include <cctype>
+#include <algorithm>
 using namespace std;
 
 string GetInput(string INDICATOR)
@@ -8,7 +10,10 @@ string GetInput(string INDICATOR)
     string in;
     cout << "REQ" << INDICATOR << " ";
     cin >> in;
-    return in;
+
+    auto lower_STR = tolower(in)    
+
+    return lower
 }
 
 int CheckIfIsQuestion(string INPUT)
@@ -17,7 +22,7 @@ int CheckIfIsQuestion(string INPUT)
 
     for(string item : QuestionKeywords)
     {
-        cout << item << endl;
+        
     }
     //if(INPUT)
     return 0;

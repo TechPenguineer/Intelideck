@@ -8,5 +8,6 @@ using namespace std;
 
 std::string GetInput(string INDICATOR);
 int CheckIfIsQuestion(string INPUT);
+void ParseStringToCharArray(string STRING);
 
 #endif

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+#include "IDIO.h"
+
+public char p[]
+void ParseStringToCharArray(string STRING)
+{
+    char p[STRING.length()];
+
+    int i;
+    for(i=0; i<sizeof(p); i++)
+    {
+        p[i] = STRING[i];
+        
+        return p[i];
+    }
+}
