@@ -11,7 +11,5 @@ void ParseStringToCharArray(string STRING)
     for(i=0; i<sizeof(p); i++)
     {
         p[i] = STRING[i];
-        
-        return p[i];
     }
 }

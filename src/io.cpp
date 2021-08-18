@@ -10,20 +10,25 @@ string GetInput(string INDICATOR)
     string in;
     cout << "REQ" << INDICATOR << " ";
     cin >> in;
-
-    auto lower_STR = tolower(in)    
-
-    return lower
+    return in;
 }
 
 int CheckIfIsQuestion(string INPUT)
 {
     string QuestionKeywords[6] = {"Who","What","Where","Why","When","?"};
-
+    auto req = GetInput(">>");
     for(string item : QuestionKeywords)
     {
-        
+        if(req==item)
+        {
+            cout << "Question Statement Detected for the following keyword: " << item << endl;
+        }    
     }
     //if(INPUT)
     return 0;
+}
+
+void Ask()
+{
+    GetInput()
 }
